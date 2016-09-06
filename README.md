@@ -1,16 +1,12 @@
-# PhylogeneticTrees
-People's similarities and differences in their physical or genetic characteristics.
+# phylogenetic-trees
 
-By:
+This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+version 0.15.1.
 
-Jorge Porras
+## Build & development
 
-Alonso Larraguibel
+Run `grunt` for building and `grunt serve` for preview.
 
-Vincent Bloom
+## Testing
 
-Brandon García
-
-Alejandro Juárez
-
-Emilio Escobedo
+Running `grunt test` will run the unit tests with karma.
