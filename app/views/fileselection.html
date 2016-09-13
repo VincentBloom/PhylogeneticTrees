@@ -1,1 +1,14 @@
-<p>This is the FileSelection view.</p>
+<h1>File Manager</h1>
+<div class="w3-container" style="background: dimgray">
+  <div class="container" style="padding-top: 8px; padding-bottom: 8px; color: lightgray">
+    <input type="text" value="Search files" onblur="if (this.value == '') {this.value = 'Search files'; this.style.color = 'lightgray'}"
+           onfocus="if (this.value == 'Search files') {this.value = ''; this.style.color = 'black'}">
+    <input type="submit" align="right" style="background: red; color: white; border-color: red" value="Browse files">
+    <input type="submit" align="right" style="background: red; color: white; border-color: red" value="Generate Phy Tree" disabled>
+    Files selected: 0
+  </div>
+  <div class="scroll" style="vertical-align: middle; text-align: center; overflow: auto; background: darkgrey; height: 500px">
+    <img src="images/sadface.png" style="padding-top: 10px" width="250" height="200">
+    <p>There are no stored files.</p>
+  </div>
+</div>
