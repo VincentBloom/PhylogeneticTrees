@@ -1,1 +1,13 @@
-<p>This is the FileList view.</p>
+<h1>Phylogenetic Tree Files</h1>
+<div class="w3-container" style="background: dimgray">
+  <div class="container" style="padding-top: 8px; padding-bottom: 8px">
+    <input type="text" value="Search tree" onblur="if (this.value == '') {this.value = 'Search tree';}"
+           onfocus="if (this.value == 'Search tree') {this.value = '';}">
+    <input type="submit" align="right" style="background: red; color: white; border-color: red" value="Download files">
+    <input type="submit" align="right" style="background: red; color: white; border-color: red" value="Open Phy Tree" disabled>
+  </div>
+  <div class="scroll" style="vertical-align: middle; text-align: center; overflow: auto; background: darkgrey; height: 500px">
+    <img src="images/sadface.png" style="padding-top: 10px" width="250" height="200">
+    <p>There are no stored files.</p>
+  </div>
+</div>
