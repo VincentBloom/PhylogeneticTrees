@@ -31,6 +31,7 @@ angular.module('phylogeneticTreesApp')
     });
 
     $scope.selected = function(id) {
+      $scope.fileURL = $scope.fileURL+id;
       if(selected.includes(id)){
         var index = selected.indexOf(id);
         selected.splice(index, 1);
